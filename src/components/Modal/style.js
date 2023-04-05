@@ -17,13 +17,13 @@ export const Card = styled.div`
   cursor: pointer;
 
   -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-filter: gray;
+  filter: grayscale(100%);
+  filter: gray;
 
 
   :hover {
     -webkit-filter: none;
-filter: none;
+    filter: none;
   }
 `
 

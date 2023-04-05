@@ -5,7 +5,7 @@ import { motion, useAnimation } from 'framer-motion'
 import { Paragraph } from './style'
 
 const RevelMe = ({ text }) => {
-  const { ref, inView } = useInView({ threshold: 0.2 })
+  const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true })
   const animation = useAnimation()
 
   useEffect(() => {
