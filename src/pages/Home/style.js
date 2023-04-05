@@ -25,9 +25,12 @@ export const Main = styled.main`
 export const About = styled.div`
   padding: ${pixelToRem(20, 0)};
   
-  img {
-    width: 100%;
-  }
+  img.profile {
+    width: 100%;  
+    border: 2px solid rgba(67, 54, 51, 0.8);
+
+    border-radius: 0 10px 0 10px;
+}
 `
 
 export const Services = styled.div`

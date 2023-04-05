@@ -14,10 +14,10 @@ import { services } from '../../utils/services'
 import { useInView } from 'react-intersection-observer'
 import { motion, useAnimation } from 'framer-motion'
 import { about, Jaffar } from '../../utils/texts'
-import rafa from '../../assets/img/r-jaffar.jpg'
+import rafa from '../../assets/img/jaffar.jpeg'
 
 const Home = () => {
-  const { ref, inView } = useInView({ threshold: 0.1 })
+  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true })
   const animation = useAnimation()
 
   useEffect(() => {
@@ -94,7 +94,11 @@ const Home = () => {
           <Subtitle className="margin_bottom">
             Rafael Jaffar
           </Subtitle>
-          <img src={rafa} alt="Rafael Jaffar" />
+          <img
+            src={rafa}
+            alt="Rafael Jaffar"
+            className='profile'
+          />
 
           <div>
             <ParagraphComponent text={Jaffar.text}/>
