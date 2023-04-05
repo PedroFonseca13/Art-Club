@@ -15,8 +15,8 @@ export const services = [
     description: 'Um ritual! Desde o início ao fim preparados para o maior conforto do cliente. Um processo que começa com a esfoliação do rosto, para tirar impurezas e células mortas, depois óleos para proteção da pele e ajudar na sua regeneração. Depois o creme especial com o melhor momento de todos, a toalha quente. Depois da barba feita, usamos um creme especifico para pós barba e cuidados com a pele facial.'
   },
   {
-    title: 'Corte Infantil',
-    img: 'https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-    description: 'lorem'
+    title: 'Barba',
+    img: 'https://images.unsplash.com/photo-1596728325488-58c87691e9af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhcmJlcnxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60',
+    description: 'Para aquele que quer um pouco de agilidade no Barbear. Usamos neste processo somente o óleo para proteção e regeneração da pele, o creme de barbear e uma loção pós barba.'
   }
 ]

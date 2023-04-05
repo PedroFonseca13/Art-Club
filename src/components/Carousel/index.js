@@ -1,4 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel'
+import carrousel1 from '../../assets/img/IMG_3278.JPG'
+import carrousel2 from '../../assets/img/IMG_3292.JPG'
+import carrousel3 from '../../assets/img/IMG_3185.JPG'
 
 const CarouselFade = () => {
   return (
@@ -7,21 +10,23 @@ const CarouselFade = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1592647420148-bfcc177e2117?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+            src={carrousel1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+            src={carrousel2}
+
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1549271568-e87e07c5406b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+            src={carrousel3}
+
             alt="Third slide"
           />
         </Carousel.Item>
