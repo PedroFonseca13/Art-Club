@@ -6,4 +6,5 @@ export const Paragraph = styled.p`
   font-weight: 300;
   margin: 0;
   padding: ${pixelToRem(20, 0, 0)};
+  text-align: justify;
 `

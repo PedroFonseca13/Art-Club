@@ -24,6 +24,10 @@ export const Main = styled.main`
 
 export const About = styled.div`
   padding: ${pixelToRem(20, 0)};
+  
+  img {
+    width: 100%;
+  }
 `
 
 export const Services = styled.div`

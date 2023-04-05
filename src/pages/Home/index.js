@@ -13,6 +13,8 @@ import { Link } from 'react-scroll'
 import { services } from '../../utils/services'
 import { useInView } from 'react-intersection-observer'
 import { motion, useAnimation } from 'framer-motion'
+import { about, Jaffar } from '../../utils/texts'
+import rafa from '../../assets/img/r-jaffar.jpg'
 
 const Home = () => {
   const { ref, inView } = useInView({ threshold: 0.1 })
@@ -68,8 +70,8 @@ const Home = () => {
           </Subtitle>
 
           <CarouselFade />
-          <ParagraphComponent />
-          <ParagraphComponent />
+          <ParagraphComponent text={about.text}/>
+          <ParagraphComponent text={about.text2}/>
         </Container>
       </About>
 
@@ -79,25 +81,26 @@ const Home = () => {
 
           <div className='divCards'>
             { services.map(({ title, img, description }, i) => (
-              <ModalComponent key={ i } tle={ title } img={ img } description={ description } />
+              <ModalComponent key={ i } title={ title } img={ img } description={ description } />
             )) }
           </div>
 
-          <ParagraphComponent />
+          <ParagraphComponent text={about.text}/>
 
         </Container>
       </Services>
-      <About id="barbershop">
+      <About id="Jaffar">
         <Container>
           <Subtitle className="margin_bottom">
             Rafael Jaffar
           </Subtitle>
-
-          {/* <CarouselFade /> */ }
+          <img src={rafa} alt="Rafael Jaffar" />
 
           <div>
-            <ParagraphComponent />
-            <ParagraphComponent />
+            <ParagraphComponent text={Jaffar.text}/>
+            <ParagraphComponent text={Jaffar.text2}/>
+            <ParagraphComponent text={Jaffar.text3}/>
+            <ParagraphComponent text={Jaffar.text4}/>
           </div>
         </Container>
       </About>

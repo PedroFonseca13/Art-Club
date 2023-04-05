@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
+import PropTypes from 'prop-types'
 import { useInView } from 'react-intersection-observer'
 import { motion, useAnimation } from 'framer-motion'
 import { Paragraph } from './style'
 
-const RevelMe = () => {
+const RevelMe = ({ text }) => {
   const { ref, inView } = useInView({ threshold: 0.2 })
   const animation = useAnimation()
 
@@ -25,10 +26,14 @@ const RevelMe = () => {
   return (
     <motion.div ref={ ref } initial='hidden' animate={ animation } variants={ variants }>
       <Paragraph>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus cumque incidunt saepe, sed minima magni quasi pariatur. Obcaecati cupiditate quod odit laboriosam nesciunt porro magni quos delectus excepturi enim. Aspernatur!
+          {text}
       </Paragraph>
     </motion.div>
   )
 }
 
 export default RevelMe
+
+RevelMe.propTypes = {
+  text: PropTypes.string
+}
