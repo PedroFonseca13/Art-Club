@@ -1,0 +1,8 @@
+:root {
+  --swiper-theme-color: #f2f3f4;
+}
+
+.swipper img {
+  max-height: auto;
+  max-width: 100%;
+}
