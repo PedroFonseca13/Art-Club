@@ -9,7 +9,6 @@ const RevelMe = ({ text }) => {
   const animation = useAnimation()
 
   useEffect(() => {
-    console.log('inView = ', inView)
     if (inView) {
       animation.start('visible')
     }
