@@ -30,12 +30,9 @@ const SwiperComponent = ({ slides }) => {
         slidesPerView={1}
         breakpoints={{
           576: {
-            // width: 576,
             slidesPerView: 2
           }
         }}
-        onSlideChange={() => console.log('Slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         {slides.map(({ url }) => (
             <SwiperSlide key={url}>
