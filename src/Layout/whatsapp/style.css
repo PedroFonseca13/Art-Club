@@ -1,0 +1,19 @@
+@keyframes ghost {
+  from { opacity: 1}
+  to { opacity: 0}
+}
+
+.hide {
+  display: none;
+  animation: ghost 1s;
+}
+
+@keyframes go-view {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.show {
+  display: block;
+  animation: go-view 1s;
+}
