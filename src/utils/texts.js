@@ -1,7 +1,8 @@
 export const about = {
   title: 'paragrafos do about',
-  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fug.',
-  text2: 'Somos especialistas em seres humanos, fazemos do corte de cabelo, da barba bem feita, ou qual serviço for, um momento especial, com música boa, ambiente agradável e se quiser um bom papo. Somos a ART CLUB.'
+  text: 'Se você está procurando por um serviço personalizado e um bom atendimento, você está no lugar certo! A nossa barbearia foi fundada em 2020 e desde então, temos nos dedicado a oferecer serviços de alta qualidade aos nossos clientes.',
+  text2: 'Não apenas fornecemos excelentes serviços, mas também nos orgulhamos em fornecer um atendimento excepcional aos nossos clientes. Queremos que cada um se sinta em casa quando entra na nossa barbearia.',
+  text3: 'Somos especialistas em seres humanos, fazemos do corte de cabelo, da barba bem feita, ou qual serviço for, um momento especial, com música boa, ambiente agradável e se quiser um bom papo. Somos a ART CLUB.'
 }
 
 export const Jaffar = {

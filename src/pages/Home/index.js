@@ -6,6 +6,7 @@ import ModalComponent from '../../components/Modal'
 import Navbar from '../../components/Navbar'
 import ParagraphComponent from '../../components/Paragraph'
 import SwiperComponent from '../../components/Swipper'
+import WhatsappButton from '../../Layout/whatsapp'
 import { Container } from 'react-bootstrap'
 import { GlobalStyles } from '../../assets/styles/globalStyles'
 import { Title, Subtitle, DivFlex } from '../../assets/styles/styles'
@@ -23,7 +24,6 @@ const Home = () => {
   const animation = useAnimation()
 
   useEffect(() => {
-    console.log('inView = ', inView)
     if (inView) {
       animation.start({
         x: 0,
@@ -41,7 +41,7 @@ const Home = () => {
     <>
       <GlobalStyles />
       <Navbar />
-
+      <WhatsappButton />
       <Main>
         <Container>
           <Logo> <BarberPole /> </Logo>
@@ -76,6 +76,7 @@ const Home = () => {
             <div>
               <ParagraphComponent text={about.text} />
               <ParagraphComponent text={about.text2} />
+              <ParagraphComponent text={about.text3} />
             </div>
           </div>
         </Container>
