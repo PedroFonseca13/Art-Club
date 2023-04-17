@@ -9,12 +9,13 @@ export const Card = styled.div`
 
   background: ${props => `url(${props.img}) no-repeat center center`};
   background-size: cover;
-  /* background-color: #3a5a40; */
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   transition: .6s;
   cursor: pointer;
+
+  margin-bottom: 10px;
 
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -24,6 +25,10 @@ export const Card = styled.div`
   :hover {
     -webkit-filter: none;
     filter: none;
+  }
+
+  @media (min-width: 768px) {
+    width: 49%;
   }
 `
 

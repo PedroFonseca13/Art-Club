@@ -42,8 +42,33 @@ export const Services = styled.div`
   .divCards {
     display: flex;
     flex-wrap: wrap;
-    min-height: 650px;
-    align-content: space-between;
     padding-top: ${pixelToRem(20)};
   }
+
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--textWithe);
+    background-color: var(--link);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-top: 10px;
+    border: 1px solid;
+    font-size: 1.25rem;
+    width: 150px;
+    padding: 10px 5px;
+  }
+  
+  a:hover {
+    /* background-color: ; */
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .divCards {
+      max-height: 420px;
+      justify-content: space-between;
+    }
+   }
 `

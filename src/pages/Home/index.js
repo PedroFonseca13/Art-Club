@@ -12,7 +12,7 @@ import { GlobalStyles } from '../../assets/styles/globalStyles'
 import { Title, Subtitle, DivFlex } from '../../assets/styles/styles'
 import { About, Logo, Main, Services } from './style'
 import { Link } from 'react-scroll'
-import { about, Jaffar } from '../../utils/texts'
+import { about, servicesDescription, Jaffar } from '../../utils/texts'
 import { services } from '../../utils/services'
 import { carrousel } from '../../utils/URLPhotos'
 import { useInView } from 'react-intersection-observer'
@@ -97,7 +97,9 @@ const Home = () => {
             ))}
           </div>
 
-          <ParagraphComponent text={about.text} />
+          <ParagraphComponent text={servicesDescription.text} />
+
+          <a href='https://booksy.com/pt-br/instant-experiences/widget/132530' target='_blank' rel="noreferrer">Agendar agora!</a>
         </Container>
       </Services>
       <About id="Jaffar">
