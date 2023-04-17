@@ -5,19 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     --background: #e5e5e5;
     --button: #433633;
     --textWithe: #f1f1f1;
-    --mars: #E85937;
-    --mars-light: #FF8C70;
-    --mars-dark: #CF3F1D;
-
-    --yellow-sun: #F5D15F;
-    --jupiter: #E00E34;
-    --earth: #0fdd86;
-    --saturn: #554ad7;
-    --uranus: #24FFE9;
-
-    --space-light: #3d68b2;
-    --space-dark: #040327;
-    --space: #0B1E8A;
+    --link: #242331; // 242331
 
     --gray-01: #0D0E13;
     --gray-02: #2C2D3A;

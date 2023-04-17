@@ -1,8 +1,12 @@
 export const about = {
   title: 'paragrafos do about',
-  text: 'Se você está procurando por um serviço personalizado e um bom atendimento, você está no lugar certo! A nossa barbearia foi fundada em 2020 e desde então, temos nos dedicado a oferecer serviços de alta qualidade aos nossos clientes.',
+  text: 'A nossa barbearia foi fundada em 2020 e desde então, temos nos dedicado a oferecer serviços de alta qualidade.',
   text2: 'Não apenas fornecemos excelentes serviços, mas também nos orgulhamos em fornecer um atendimento excepcional aos nossos clientes. Queremos que cada um se sinta em casa quando entra na nossa barbearia.',
   text3: 'Somos especialistas em seres humanos, fazemos do corte de cabelo, da barba bem feita, ou qual serviço for, um momento especial, com música boa, ambiente agradável e se quiser um bom papo. Somos a ART CLUB.'
+}
+
+export const servicesDescription = {
+  text: 'Estamos comprometidos em oferecer a melhor experiência possível para nossos clientes. Agende uma visita conosco e descubra por que nossos  serviços e atendimento  são tão elogiados pelos nossos clientes satisfeitos.'
 }
 
 export const Jaffar = {
