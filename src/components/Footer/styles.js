@@ -9,6 +9,13 @@ export const DivFlex = styled.div`
   display: flex;
   gap: ${pixelToRem(20)};
   flex-direction: column;
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `
 
 export const FooterTitle = styled.h3`
@@ -52,6 +59,12 @@ export const Social = styled.div`
 
   li {
     text-align: center;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--textWithe)
   }
 
   svg {
@@ -66,5 +79,13 @@ export const Address = styled.div`
 
   p {
     font-weight: 300;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { 
+    address {
+      display: flex;
+      gap: ${pixelToRem(10)};
+    }
   }
 `
