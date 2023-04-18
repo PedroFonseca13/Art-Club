@@ -102,12 +102,13 @@ const Home = () => {
           <a href='https://booksy.com/pt-br/instant-experiences/widget/132530' target='_blank' rel="noreferrer">Agendar agora!</a>
         </Container>
       </Services>
+
       <About id="Jaffar">
         <Container>
           <Subtitle className="margin_bottom">Rafael Jaffar</Subtitle>
           <img src={rafa} alt="Rafael Jaffar" className="profile" />
 
-          <div>
+          <div className='areaparagrafo'>
             <ParagraphComponent text={Jaffar.text} />
             <ParagraphComponent text={Jaffar.text2} />
             <ParagraphComponent text={Jaffar.text3} />

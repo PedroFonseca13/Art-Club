@@ -30,7 +30,19 @@ export const About = styled.div`
     border: 2px solid rgba(67, 54, 51, 0.8);
 
     border-radius: 0 10px 0 10px;
-}
+
+    @media (min-width: 768px) {
+      max-width: 42%;
+      float: left;
+      margin-right: ${pixelToRem(20)};
+    }
+  }
+
+  .areaparagrafo>div:first-child>p {
+    padding-top: 0;
+  }
+
+  .no_padding { padding: 0; }
 `
 
 export const Services = styled.div`
@@ -61,7 +73,9 @@ export const Services = styled.div`
   }
   
   a:hover {
-    /* background-color: ; */
+    text-decoration: underline;
+    background-color: transparent;
+    transition: .8s;
   }
 
   // Medium devices (tablets, 768px and up)
