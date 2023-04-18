@@ -81,11 +81,19 @@ export const Address = styled.div`
     font-weight: 300;
   }
 
+  address>p:nth-child(2){
+    display: none;
+  }
+
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) { 
     address {
       display: flex;
       gap: ${pixelToRem(10)};
+    }
+
+    address>p:nth-child(2){
+      display: inline;
     }
   }
 `
