@@ -18,8 +18,14 @@ export const Main = styled.main`
   flex-direction: column;
   justify-content: space-evenly;
 
-  height: calc(100vh - 56px);
+  height: calc(100vh - 80px);
   margin-top: ${pixelToRem(56)};
+
+  @media (min-width: 768px) {
+    max-width: 60%;
+    margin: 0 auto;
+  height: calc(100vh - 56px);
+  }
 `
 
 export const About = styled.div`
