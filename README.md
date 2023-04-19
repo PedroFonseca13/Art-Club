@@ -3,9 +3,11 @@
 </h1>
 
 # ArtClub 💈
+
 > Feito para cuidar de você
 
 ## 💻 Sobre o projeto
+
 Agende seus cortes de cabelo e barba facilmente com nossa aplicação web de barbearia. Selecione um serviço, escolha um horário e confirme a reserva, tudo isso sem sair de casa!
 
 ## 🎨 Layout
@@ -13,9 +15,13 @@ Agende seus cortes de cabelo e barba facilmente com nossa aplicação web de bar
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="100px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/services-mobile.png" width="100px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/barber-mobile.png" width="100px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/footer-mobile.png" width="100px">
 </p>
 
 ### Web
