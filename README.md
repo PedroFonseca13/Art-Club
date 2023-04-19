@@ -15,19 +15,23 @@ Agende seus cortes de cabelo e barba facilmente com nossa aplicação web de bar
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="100px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/home-mobile.png" width="100px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/services-mobile.png" width="100px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/services-mobile.png" width="100px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/barber-mobile.png" width="100px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/barber-mobile.png" width="100px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/footer-mobile.png" width="100px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/footer-mobile.png" width="100px">
 </p>
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/home-web.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/services-web.png" width="400px">
+
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/barber-web.png" width="400px">
+
+  <img alt="Art Club" title="#ArtClubBarbershop" src="./assets/footer-web.png" width="400px">
 </p>
