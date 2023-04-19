@@ -26,7 +26,7 @@ const Footer = () => {
             <FooterTitle>Contatos e Redes sociais</FooterTitle>
             <ul>
               <li>
-                <a target="_blank" href="" rel="noreferrer">
+                <a target="_blank" href="https://www.instagram.com/barbeariartclub/" rel="noreferrer">
                   <FaInstagram />
                   <p>Instagram</p>
                 </a>
